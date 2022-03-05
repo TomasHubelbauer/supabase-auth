@@ -9,6 +9,8 @@ Step by step what I've done so far:
 2. Create a new Supabase project named `supabase-auth`
   - Database password is in `secrets.txt` (Git-ignored)
   - Free tier
+3. Set up a new Vercel project based on this repository
+  - https://supabase-auth-sage.vercel.app
 
 The end goal is to have a Next application that uses Supabase Auth to log in and
 out a single user and does not allow any other users to sign up. This is meant
