@@ -12,7 +12,6 @@ export default function Home() {
       </Head>
 
       <div>{process.env.NEXT_PUBLIC_SUPABASE_URL}</div>
-      <div>{process.env.SUPABASE_SERVICE_ROLE_KEY}</div>
       <div>{process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}</div>
 
       <main className={styles.main}>
