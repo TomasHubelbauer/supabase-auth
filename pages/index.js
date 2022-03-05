@@ -11,6 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div>{process.env.NEXT_PUBLIC_SUPABASE_URL}</div>
+      <div>{process.env.SUPABASE_SERVICE_ROLE_KEY}</div>
+      <div>{process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}</div>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
